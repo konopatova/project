@@ -1,0 +1,20 @@
+
+$default-font: 'Arial', sans-serif;
+$secondary-font: 'Arimo';
+
+// vars
+$accent: #036ad0;
+$secondary-accent: #49c8b7;
+$wrong: #994f4f;
+$disabled: #373737;
+$light-text: #4c4c4c;
+$placeholder: #979797;
+
+
+// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
+
+$gutter: $grid-gutter-width;
