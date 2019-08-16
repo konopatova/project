@@ -903,7 +903,9 @@ button, input[type="range"]  {
 		&:hover {
 			opacity: 0.5;
 		}
-		
+	}
+	.footer-top {
+		margin-bottom: 30px;
 	}
 }
  
@@ -920,6 +922,31 @@ svg {
 		color: black;
 		transition: color 0.25s ease 0s;
 	}
+}
+
+.copyright {
+	padding-top: 22px;
+	width: 100%;
+	border-top: 1px solid rgba(white, $alpha: 0.22);
+	.copyright__text {
+		display: block;
+		font-size: 13px;
+		color: rgba(white, $alpha: 0.5);
+	}	
+	.copyright__link {
+		color: rgba(white, $alpha: 1);
+		transition: opacity 0.2s ease-in;
+		text-decoration: underline;
+		&:hover {
+			opacity: 0.5;
+		}
+}
+	.copyright__right {
+		width: 100%;
+		text-align: right;
+		margin-left: auto;
+	}
+	
 }
 
 @import "media"; // Always at the end
